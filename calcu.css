@@ -1,0 +1,21 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("joanna-kosinska-unsplash.jpg");
+    background-size: cover;
+ }
+.container{
+    border: 5px solid black;
+    margin:150px;
+    padding:40px;
+    text-align: center;
+    background-image: url("annie-spratt-unsplash.jpg");
+}
+button{
+    margin: 20px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline dashed;
+    margin-top: 60px;
+}

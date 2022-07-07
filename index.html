@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcu.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <form class="container">
+        <label for="num1"><b>Number 1</b></label>
+        <input type="number" placeholder="Enter number1" id="num1">
+        <label for="num2"><b>Number 2</b></label>
+        <input type="number" placeholder="Enter number2" id="num2">
+        <div>
+            <button type="button" class="add" onclick="calc(add);">Addition</button>
+            <button type="button" class="sub" onclick="calc(sub);">Subtraction</button>
+            <button type="button" class="pro" onclick="calc(pro);">Product</button>
+            <button type="button" class="div" onclick="calc(div);">Division</button>
+            <button type="button" class="rem" onclick="calc(rem);">Remainder</button>
+        </div>
+        <label><b>Result</b></label>
+        <input type="text" id="result">
+    </form>
+    <script src="calcu.js"></script>
+</body>
+</html>
